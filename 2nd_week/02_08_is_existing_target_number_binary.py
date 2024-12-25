@@ -9,7 +9,7 @@ def is_existing_target_number_binary(target, array):
 
     find_count = 0
 
-    while cur_guess <= cur_max:
+    while cur_min <= cur_max:
         find_count += 1
         if array[cur_guess] == target:
             print(find_count)
